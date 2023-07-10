@@ -274,14 +274,14 @@
 }
 .testimonial-wraper .pt-img1 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 50px;
   left: 100px;
   animation: left-right 2s infinite alternate;
 }
 .testimonial-wraper .pt-img2 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 550px;
   left: 100px;
   animation: mover 1s infinite alternate;
@@ -289,7 +289,7 @@
 
 .testimonial-wraper .pt-img3 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 50px;
   right: 100px;
   animation: spin 5s linear infinite;
@@ -297,7 +297,7 @@
 
 .testimonial-wraper .pt-img4 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 550px;
   right: 120px;
   animation: spin 5s linear infinite;
@@ -310,6 +310,24 @@
   }
   .slick-slide {
     width: auto;
+  }
+  .testimonial-wraper .pt-img1 {
+    top: 155px;
+    left: 100px;
+  }
+  .slick-slide .slider-item {
+    margin-left: -50px;
+  }
+  .testimonial-bx {
+    margin: 50px 50px 20px;
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    top: 400px;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    top: 400px;
   }
 }
 
@@ -343,5 +361,25 @@
   .swiper-rtl .swiper-button-next {
     top: 525px;
     left: 30px;
+  }
+  .testimonial-wraper .pt-img1,
+  .testimonial-wraper .pt-img2,
+  .testimonial-wraper .pt-img3,
+  .testimonial-wraper .pt-img4 {
+    display: none;
+  }
+  .testimonial-bx {
+    margin: 40px -15px 20px 100px;
+  }
+  .testimonial-bx .testimonial-content p {
+    font-size: 15px;
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 55px;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    left: 120px;
   }
 }

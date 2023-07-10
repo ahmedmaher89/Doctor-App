@@ -462,10 +462,10 @@ const Home = () => {
         <img className="pt-img3" src="/imgs/shape4.png" alt="" />
       </section>
 
-      <Testimonial/>
+      <Testimonial />
 
-      <Lsatview/>
-      <Footrs/>
+      <Lsatview />
+      <Footrs />
     </>
   );
 };

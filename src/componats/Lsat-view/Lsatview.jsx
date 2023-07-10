@@ -99,7 +99,7 @@ const Lsatview = () => {
                               </ul>
                               <h5 className="post-title">
                                 <a href="#">
-                                  Can you get a diflucan prescription online?
+                                  Can you get a prescription online?
                                 </a>
                               </h5>
                               <a

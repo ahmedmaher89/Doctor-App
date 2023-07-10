@@ -79,6 +79,7 @@ header span img{
     width: 120px ;
     left: 630px;
     bottom: 240px;
+    z-index: -1;
 }
 header .headerBox{
     position: relative;
@@ -159,7 +160,7 @@ header i{
         height: 40px;
         
     }
-    
+ 
 }
 @media only screen and (max-width: 575px){
     [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
@@ -180,6 +181,13 @@ header i{
         width: 82%;
         padding: 5px;
     }
+    header span img {
+        position: absolute;
+        width: 120px;
+        left: 210px;
+        bottom: -550px;
+        z-index: -1;
+    }
 
 }
 
@@ -187,7 +195,7 @@ header i{
 
 
 
-/* worh-area sec */
+/* work-area sec */
 .work-area {
     background-image: url(/public/imgs/worksec.png);
     background-repeat: no-repeat;
@@ -345,6 +353,35 @@ left: 5%;
     right: -67%;
     animation: spin 5s linear infinite;
 }
+@media only screen and (max-width: 950px){
+    .work-area  .wa-img2 {
+        left: 65%;
+    }
+    .work-area .wa-img1 {
+        left: 5%;
+        top: -905px;
+    }
+    .work-area  .wa-img3 {
+        bottom: 88px;
+        right: 10%;
+    }
+    
+}
+@media only screen and (max-width: 575px){
+    .work-area .wa-img1 {
+        left: 5%;
+        top: -1225px;
+    }
+    .work-area  .wa-img2 {
+        top: -430px !important;
+        left: 40%;
+    }
+    .work-area  .wa-img3 {
+        bottom: 55px;
+        right: 10%;
+    }
+}
+
 
 
 /* account-wraper1 */
@@ -467,6 +504,18 @@ left: 5%;
     }
     .appointment-thumb .images-group .img1 {
         right: -23px;
+    }
+    .account-wraper1 .appointment-inner  .pt-img3 {
+        position: relative;
+        right: -390px;
+        top: -1355px;
+    }
+    .account-wraper1 .appointment-inner .pt-img4 {
+        right: 350px;
+        top: -250px;
+    }
+    .appointment-thumb .images-group .img5 {
+        top: -40px;
     }
 }
 @media only screen and (max-width: 550px){
@@ -705,6 +754,12 @@ left: 5%;
         font-size: 25px;
     }
 }
+@media only screen and (max-width: 950px){
+    .service-wraper .feature-container {
+        margin-left: 50px;
+    }
+}
+
 @media only screen and (max-width: 525px){
     .service-wraper {
         height: 900px;
@@ -716,3 +771,4 @@ left: 5%;
         width: 350px !important;
     }
 }
+/*done*/

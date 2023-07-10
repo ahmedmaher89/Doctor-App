@@ -204,34 +204,60 @@ footer:after {
 }
 footer .pt-img1 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 380px;
   left: 20px;
   animation: spin 5s linear infinite;
 }
 footer .pt-img2 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 115px;
   right: 60px;
   animation: spin 5s linear infinite;
 }
 footer .pt-img3 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 440px;
   right: 60px;
   animation: left-right 2s infinite alternate;
 }
 footer .pt-img4 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 121px;
   left: 50px;
   animation: left-right 2s infinite alternate;
 }
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 575px) {
   footer {
     padding-top: 50px;
   }
+  footer .pt-img1 {
+    top: 380px;
+    left: 76px;
+}
+}
+@media only screen and (max-width: 950px){
+  footer .pt-img3 {
+    top: 645px;
+    right: 60px;
+  }
+  footer .pt-img2 {
+    top: 250px;
+    right: 130px;
+}  
+footer .pt-img4 {
+  top: 85px;
+  left: 23px;
+}
+footer .pt-img2 {
+  top: 190px;
+  right: 40px;
+}
+footer .pt-img3 {
+  top: 913px;
+  right: 60px;
+}
 }

@@ -144,3 +144,26 @@
     right: 100px;
     animation: left-right 2s infinite alternate;
 }
+
+
+
+@media only screen and (max-width: 950px){
+    .blog-area .pt-img4 {
+        bottom: 600px;
+        right: 100px;
+    }
+    .blog-area .pt-img3 {
+        right: 200px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .blog-area .pt-img1 {
+        top: 65px;
+        left: 60px;
+    }
+    .blog-area .pt-img3 {
+        right: 52px;
+        top: 175px;
+    }
+    
+}
