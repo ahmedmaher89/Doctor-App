@@ -370,6 +370,7 @@
   }
   .testimonial-bx {
     margin: 40px -15px 20px 100px;
+    padding: 30px;
   }
   .testimonial-bx .testimonial-content p {
     font-size: 15px;
@@ -377,9 +378,17 @@
   .swiper-button-prev,
   .swiper-rtl .swiper-button-next {
     left: 55px;
+    top: 475px;
   }
   .swiper-button-next,
   .swiper-rtl .swiper-button-prev {
     left: 120px;
+    top: 475px;
   }
+}
+@media only screen and (max-width: 350px){
+  .testimonial-bx {
+    margin: 37px -15px 20px 67px;
+    padding: 20px;
+}
 }
